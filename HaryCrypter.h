@@ -6,5 +6,5 @@ class WHaryCrypter
 {
 public:
 	virtual int Encrypt(std::string text);
-	void Decrypt(std::string text);
+	virtual void Decrypt(std::string text);
 };
